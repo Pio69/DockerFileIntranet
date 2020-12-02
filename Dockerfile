@@ -6,5 +6,4 @@ CMD ["/usr/sbin/httpd","-D","FOREGROUND"]
 
 RUN git clone https://github.com/Pio69/Intranet.git && cp -r  Intranet/* /var/www/html
 
-RUN cd /var/www/ && ls -la
-
+RUN cd /var/www/ && ls -l
